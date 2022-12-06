@@ -1,0 +1,29 @@
+table {
+    margin: 20px 0 40px;
+    margin: 0 auto;
+}
+
+thead {
+    background: url(../imagens/bg.jpg);
+    color: white;
+    font-weight: bold;
+}
+
+th {
+    border: 2px solid #000000;
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+td {
+    border: 2px solid #000000;
+    padding: 8px 15px;
+    font-family: 'Fontetitulos';
+}
+
+@font-face {
+    font-family: 'Fontetitulos';
+    src: url('../fontes/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

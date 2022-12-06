@@ -1,0 +1,26 @@
+main ul {
+    padding: 30px;
+}
+
+main ul li {
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+main ul li:hover {
+    border-color:orange;
+}
+
+img {
+    width: 220px; /*Largura*/
+    height: 220px; /*Altura*/
+    padding: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+}

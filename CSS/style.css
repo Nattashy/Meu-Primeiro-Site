@@ -1,0 +1,65 @@
+body p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'FonteP';
+}
+
+h1 img {
+    width: 90px; /*Largura*/
+    height: 90px; /*Altura*/
+    margin: 0%;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'FonteTitulo';
+    font-size: 50px;
+    margin: -15px 0 0 25px; /* Margin: espaçamento externo, primeiro para o topo, depois para direita, depois pra baixo e último para esquerda*/
+    /* text-align: right; */
+    position: absolute; /*Muda a osição inicial que ele se encontra */
+    top: 45px; /* Topo igual a 110 pixels / Mudei para 45px */
+    left: 90px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Fonte';
+    font-size: 80px;
+    padding: 20px;
+}
+
+main ul {
+    justify-content: center;
+}
+
+main li {
+    display: inline-block;
+    
+}
+
+main img {
+    width: 400px; /*Largura*/
+    height: 500px; /*Altura*/
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Fonte';
+    src: url('../fontes/Florilane Cardillac.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fonte2';
+    src: url('../fontes/Dimbo Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FonteP';
+    src: url('../fontes/Cocogoose\ Pro\ Light-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

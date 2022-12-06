@@ -1,0 +1,98 @@
+header {
+    background: url(../imagens/bg.jpg);
+}
+
+/*.caixa {
+    min-height: -2px;
+}*/
+
+.ab {
+    display:inline-flex; /* Deixa os itens um do lado do outro */
+}
+
+nav { 
+    position: absolute; /*Muda a osição inicial que ele se encontra */
+    top: 45px; /* Topo igual a 110 pixels / Mudei para 45px */
+    right: 60px; /* Direita igual a zero / Mudei para 50px */
+}
+
+nav li {
+    padding: 5px;
+    margin: 0 0 0 25px; /* Margin: espaçamento externo, primeiro para o topo, depois para direita, depois pra baixo e último para esquerda*/
+    /* text-align: right; */
+}
+
+nav a {
+    text-transform: uppercase; /* Transforma o texto em maiúsculo */
+    color:deeppink;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover { /* Quando o mouse estiver por cima dos elementos de navegação */
+    text-decoration: underline; /*Fica sublinhado quando o mouse estiver por cima do link */
+}
+
+h1 img {
+    width: 90px; /*Largura*/
+    height: 90px; /*Altura*/
+    margin: 0%;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'FonteTitulo';
+    font-size: 50px;
+    margin: -15px 0 0 25px; /* Margin: espaçamento externo, primeiro para o topo, depois para direita, depois pra baixo e último para esquerda*/
+    /* text-align: right; */
+    position: absolute; /*Muda a osição inicial que ele se encontra */
+    top: 45px; /* Topo igual a 110 pixels / Mudei para 45px */
+    left: 90px;
+}
+
+h3 {
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'Fonteh3';
+}
+
+
+@font-face {
+    font-family: 'FonteTitulo';
+    src: url('../fontes/PWYummyDonuts.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gradiente {
+
+    height: 100vh;
+
+    background: linear-gradient(45deg, #3191E4, #5669CA, #B33591, #DF3A65, #F8792A, #FDD06D);
+
+    background-size: 200% 200%;
+
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@font-face {
+    font-family: 'Fonteh3';
+    src: url('../fontes/RioGrande.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
